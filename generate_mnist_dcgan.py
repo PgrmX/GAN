@@ -4,9 +4,6 @@ import matplotlib.pyplot as plt
 import os
 import time
 
-# Sprawdzenie wersji TensorFlow
-print("TensorFlow Version:", tf.__version__)
-
 # Hiperparametry
 EPOCHS = 100        # Liczba epok treningu
 BATCH_SIZE = 64     # Rozmiar batcha
